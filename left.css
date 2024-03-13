@@ -27,7 +27,7 @@ body{
     float: left;
     height: 100%;
     border: 1px solid lightgray;
-    /* background-color: #f3f3f3; */
+    background-color: #f3f3f3;
     margin: 3px;
     border-radius: 10px;
 }
