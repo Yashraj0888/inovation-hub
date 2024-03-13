@@ -233,3 +233,31 @@ button .addItems1, .addItems2, .addItems3,.addItems4,.addItems5  {
     color: white;
 
 }
+
+
+@media screen and (max-width: 1300px){
+    .left{
+        width: 100%;
+        
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    /* .li_Item{
+        width: 100%;
+        gap: 10px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .teamText{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    } */
+}
