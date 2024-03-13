@@ -13,6 +13,24 @@ const dropdownContent4 = document.querySelector(".O4");
 const dropdownContent5 = document.querySelector(".O5");
 
 
+const input = document.getElementById("searchInput");
+      const table = document.getElementById("myTable");
+
+      input.addEventListener("input", function() {
+        const filter = input.value.toLowerCase();
+        const rows = table.rows;
+
+        for (let i = 1; i < rows.length; i++) {
+          const cells = rows[i].cells;
+          const rowText = cells[0].innerText.toLowerCase();
+
+          if (rowText.indexOf(filter) > -1) {
+            rows[i].style.display = "";
+          } else {
+            rows[i].style.display = "none";
+          }
+        }
+      });
 dropdownBtn.forEach(function(item){
     item.addEventListener('click',function(){
         let a=item.id
