@@ -1,0 +1,240 @@
+.right{
+    width:73.5%;
+    height: 100vh;
+    float: right;
+    border: 1px solid lightgray;
+    background-color: #f3f3f3;
+    margin: 3px;
+    border-radius: 10px;
+}
+.header_right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid lightgray;
+  
+  padding: 5px;
+  border-radius: 10px;
+}
+.searchInput{
+   background-color: #f3f3f3;
+}
+.header_right_container{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header_right_container_button{
+  padding: 5px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  border :solid 1px lightgray
+}
+.filters{
+    display: flex;
+    justify-content:space-between;
+
+    margin: 20px;
+}
+.filter_left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.brand{
+
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 2px lightgray;
+}
+.fade{
+    opacity: 0.5;;
+}
+.filter_right{
+    display: flex;
+    gap: 10px;
+
+}
+table {
+   
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .checkbox_td{
+    
+    margin-right: 10px;
+  }
+  .brandContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand_left{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-right: 10px;
+  }
+
+  .categories{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    
+  }
+  
+  .automation{
+    border: 1px solid rgba(16, 16, 109, 0.379);
+    padding: 5px;
+    background-color: rgba(114, 18, 114, 0.295);
+    color:purple;
+    border-radius: 5px;
+    padding: 1px 10px;
+
+  }
+  .b2c{
+    border: 1px solid  rgb(129, 90, 13);
+    padding: 5px;
+    padding: 1px 10px;
+    background-color: rgba(183, 177, 62, 0.295);
+    color: rgb(129, 90, 13);
+    border-radius: 5px;
+
+  }
+
+  .eCom{
+    padding: 5px;
+    background-color: rgba(187, 154, 94, 0.521);
+    border:1px solid  rgb(122, 72, 54);
+    padding: 1px 10px;
+    color: rgb(122, 72, 54);
+    border-radius: 5px;
+  }
+  .b2b{
+    padding: 5px;
+    background-color: rgba(253, 166, 3, 0.637);
+    border:1px solid rgb(47, 40, 37);
+    padding: 1px 10px;
+    color: rgb(47, 40, 37);
+    border-radius: 5px;
+  }
+  .saas{
+    padding: 5px;
+    background-color: rgba(92, 232, 178, 0.637);
+    border:1px solid rgb(12, 28, 19);
+    padding: 1px 10px;
+    color: rgb(12, 28, 19);
+    border-radius: 5px;
+  }
+  .tech{
+    padding: 5px;
+    background-color: rgba(54, 169, 232, 0.637);
+    border:1px solid rgb(4, 23, 29);
+    color: rgb(4, 23, 29);
+    padding: 1px 10px;
+    border-radius: 5px;
+  }
+  .web{
+    padding: 5px;
+    background-color: rgba(40, 226, 239, 0.637);
+    border:1px solid  rgb(4, 41, 34);
+    color: rgb(4, 41, 34);
+    padding: 1px 10px;
+    border-radius: 5px;
+  }
+  .publish{
+    padding: 5px;
+    background-color: rgba(42, 3, 55, 0.637);
+    border:1px solid  rgb(30, 2, 39);
+    padding: 1px 10px;
+    color: rgb(30, 2, 39);
+    border-radius: 5px;
+  }
+  .tags{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .subTag{
+    border: 1px solid rgb(185, 184, 184);
+    padding: 4px;
+    border-radius: 5px;
+    background-color: lightgray;
+  }
+
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+  }
+  .footContainer{
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 20px;
+    gap: 20px;
+    padding: 20px;
+  }
+  .archive ,.delete,.more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border:2px solid lightgray; 
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .delete{
+    color: red;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

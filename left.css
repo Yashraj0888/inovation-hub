@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    opacity: 0.98;
+    
+
+}
+body{
+    
+    border-radius: 10px;
+}
+.page{
+    display: flex;
+}
+
+.left{
+    width: 25%;
+    float: left;
+    border: 1px solid lightgray;
+    background-color: #f3f3f3;
+    margin: 3px;
+    border-radius: 10px;
+}
+.right{
+    width:65%;
+}
+
+.header{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamText{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 5px;
+    margin-left: 5%;
+    opacity: 0.5;
+    
+}
+.folder{
+    margin-top: 5%;
+    margin-left: 5.5%;
+}
+.headerCont{
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    transition:all 0.3s ease-in;
+    
+    
+}
+.items_Menu{
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+
+li:hover{
+    background-color: lightgray;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.li_Item{   
+    
+    margin: 10px;
+    padding: 10px;
+
+}
+.folders{
+    width: 100%;
+    
+}
+.dd{
+    opacity: 0.5;
+}
+.heading{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.INC{
+    opacity: 0.5;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+.dropbtn{
+    padding: 5px;
+}
+
+.dropdown{
+    margin: 10px;
+}
+.dropdown1{
+    
+    display: none;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+    margin-left: 20px;
+}
+.dropdown1.show{
+    
+    display: block;
+}
+.add_new1, .add_new2, .add_new3, .add_new4, .add_new5{
+    opacity: 0.5;
+    margin: 7px;
+    margin-left: 0px;
+}
+input{
+    padding: 4px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    
+}
+a, .dropdown1{
+
+    color: black ;
+    opacity: 1;
+    text-decoration: none;
+}
+button .addItems1, .addItems2, .addItems3,.addItems4,.addItems5  {
+    display: none;
+    
+}
+.button{
+    transition: all 0.5s ease;
+}
+.button:hover{
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+.addItem_button  {
+    padding: 4px;
+    border: none;
+    background-color: rgb(69, 68, 68);
+    color: white;
+    gap: 2px;
+    border-radius: 5px;
+
+}
+
+.miscellaneous{
+    margin: 25px;
+    margin-top: 15%;
+    
+    
+
+}
+.invite{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+.help{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.help .num{
+    background-color: lightgray;
+    padding: 4px;
+    width: 11%;
+    height: 1%;
+}
+
+.trail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;   
+    margin: 10px;
+    border:none;
+    background-color: lightgray;
+    border-radius: 7px;
+    
+}
+
+.num{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3; ;
+}
+.btn{
+    padding: 1.7%;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+
+}
