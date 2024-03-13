@@ -1,6 +1,6 @@
 .right{
     width:73.5%;
-    height: 100vh;
+    height: 100%;
     float: right;
     border: 1px solid lightgray;
     background-color: #f3f3f3;
@@ -25,6 +25,7 @@
   align-items: center;
   gap: 5px;
 }
+
 
 .header_right_container_button{
   padding: 5px;
@@ -182,6 +183,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;   
+    margin-top: 5%;
   }
   .footContainer{
     border: 2px solid lightgray;
